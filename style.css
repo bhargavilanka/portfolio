@@ -1,6 +1,8 @@
 :root {
   --color-accent: oklch(65% 50% 0);
   --border-gray: oklch(80% 3% 200);
+  --border-light: oklch(100% 3% 200);
+  --accent-light: oklch(95% 50% 0);
 }
 
 body {
@@ -87,4 +89,42 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--color-accent);
+  color: var(--border-gray);
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.download-btn:hover {
+  background-color: var(--accent-light);
+}
+
+.experience {
+  background-color: var(--border-light);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid var(--accent-light);
+}
+
+.edu {
+  background-color: var(--border-light);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid var(--accent-light);
+}
+
+.cv {
+  background-color: var(--border-light);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
 }
